@@ -1,0 +1,14 @@
+<mat-toolbar color="primary">
+    <span>
+     <a  routerLink="/">Tool List</a>
+    </span>
+    <span class="spacer"></span>
+    <ul>
+      <li>
+        <!--Instead of sending a http request href... routerLink just rerenders the page based on the url-->
+        <a mat-button routerLink="/create" routerLinkActive="mat-accent">
+          Add New Post
+        </a>
+      </li>
+    </ul>
+</mat-toolbar>
